@@ -1,0 +1,4 @@
+v 4
+file . "tb_funcao.vhd" "38273f4824ad8466327c509bfbbf3bdbd0d33825" "20220107135055.726":
+  entity tb_funcao at 1( 0) + 0 on 23;
+  architecture tb of tb_funcao at 11( 185) + 0 on 24;

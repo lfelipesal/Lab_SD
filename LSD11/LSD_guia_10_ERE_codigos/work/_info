@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/UFMG/Documents/UFMG/LSD/ERE/LSD10/LSD_guia_10_ERE_codigos
+Efuncao
+Z1 w1642458638
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8funcao.vhd
+Z6 Ffuncao.vhd
+l0
+L8
+V2]PZN0cQKSEj;WE_Uf<801
+!s100 8ST[GiO>TO3?hoHI7Zj4f0
+Z7 OV;C;10.4b;61
+31
+Z8 !s110 1643030117
+!i10b 1
+Z9 !s108 1643030116.000000
+Z10 !s90 -explicit|-93|funcao.vhd|
+Z11 !s107 funcao.vhd|
+!i113 1
+Z12 o-explicit -93
+Z13 tExplicit 1
+Abeh
+R2
+R3
+R4
+DEx4 work 6 funcao 0 22 2]PZN0cQKSEj;WE_Uf<801
+l16
+L15
+VBBco>e7599?LYiia7ngLQ0
+!s100 bYIJQ3cd8N7=K9TVWMSbG3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_funcao
+Z14 w1641930331
+R2
+R3
+R4
+R0
+Z15 8tb_funcao.vhd
+Z16 Ftb_funcao.vhd
+l0
+L8
+VVz9:>7gG<Io[gb^IlboPf2
+!s100 fL@i]Vc]mTZH79HjR?4]o3
+R7
+31
+R8
+!i10b 1
+Z17 !s108 1643030117.000000
+Z18 !s90 -explicit|-93|tb_funcao.vhd|
+Z19 !s107 tb_funcao.vhd|
+!i113 1
+R12
+R13
+Atb
+R2
+R3
+R4
+Z20 DEx4 work 9 tb_funcao 0 22 Vz9:>7gG<Io[gb^IlboPf2
+l38
+L11
+Z21 VOald4JbdWSXnHD4^Z?2nn1
+Z22 !s100 7NheocdNfIX:z`<HQ;Xh^0
+R7
+31
+R8
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R12
+R13
