@@ -1,0 +1,38 @@
+# vsim -t 1ns -lib work tb_funcao -do "add wave -radix unsigned sim:/tb_funcao/*" -do "view wave" -do "view structure" -do "view signals" -do "run 60ns" -do "wave zoom full" 
+# Start time: 10:15:31 on Jan 24,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_funcao(tb)
+# Loading work.funcao(beh)
+# add wave -radix unsigned sim:/tb_funcao/*
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 60ns
+# ** Note: concordancia
+#    Time: 17 ns  Iteration: 0  Instance: /tb_funcao
+# ** Note: discordancia
+#    Time: 22 ns  Iteration: 0  Instance: /tb_funcao
+# ** Note: concordancia
+#    Time: 27 ns  Iteration: 0  Instance: /tb_funcao
+# ** Note: concordancia
+#    Time: 32 ns  Iteration: 0  Instance: /tb_funcao
+# ** Note: concordancia
+#    Time: 37 ns  Iteration: 0  Instance: /tb_funcao
+# ** Note: concordancia
+#    Time: 42 ns  Iteration: 0  Instance: /tb_funcao
+# ** Note: concordancia
+#    Time: 47 ns  Iteration: 0  Instance: /tb_funcao
+# ** Note: concordancia
+#    Time: 52 ns  Iteration: 0  Instance: /tb_funcao
+# ** Note: concordancia
+#    Time: 57 ns  Iteration: 0  Instance: /tb_funcao
+# wave zoom full
+# {0 ns} {63 ns}
+# End time: 10:17:40 on Jan 24,2022, Elapsed time: 0:02:09
+# Errors: 0, Warnings: 0
