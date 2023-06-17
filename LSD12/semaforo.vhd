@@ -71,25 +71,23 @@ begin
         led_r <= '0';
         case counter is
           when 0 =>
-            seg_out_internal <= "0001100"; -- 9
+          seg_out_internal <= "0000000"; -- 8
           when 1 =>
-            seg_out_internal <= "0000000"; -- 8
+          seg_out_internal <= "0001111"; -- 7
           when 2 =>
-            seg_out_internal <= "0001111"; -- 7
+          seg_out_internal <= "0100000"; -- 6
           when 3 =>
-            seg_out_internal <= "0100000"; -- 6
+          seg_out_internal <= "0100100"; -- 5
           when 4 =>
-            seg_out_internal <= "0100100"; -- 5
+          seg_out_internal <= "1001100"; -- 4
           when 5 =>
-            seg_out_internal <= "1001100"; -- 4
+          seg_out_internal <= "0000110"; -- 3
           when 6 =>
-            seg_out_internal <= "0000110"; -- 3
+          seg_out_internal <= "0010010"; -- 2
           when 7 =>
-            seg_out_internal <= "0010010"; -- 2
+          seg_out_internal <= "1001111"; -- 1
           when 8 =>
-            seg_out_internal <= "1001111"; -- 1
-          when 9 =>
-            seg_out_internal <= "0000001"; -- 0
+          seg_out_internal <= "0000001"; -- 0  
           when others =>
             seg_out_internal <= "0001001"; -- Error
         end case;
@@ -99,15 +97,13 @@ begin
         led_r <= '0';
         case counter is
           when 0 =>
-            seg_out_internal <= "1001100"; -- 4
+          seg_out_internal <= "0000110"; -- 3
           when 1 =>
-            seg_out_internal <= "0000110"; -- 3
+          seg_out_internal <= "0010010"; -- 2
           when 2 =>
-            seg_out_internal <= "0010010"; -- 2
+          seg_out_internal <= "1001111"; -- 1
           when 3 =>
-            seg_out_internal <= "1001111"; -- 1
-          when 4 =>
-            seg_out_internal <= "0000001"; -- 0
+          seg_out_internal <= "0000001"; -- 0  
           when others =>
             seg_out_internal <= "0001001"; -- Error
         end case;
@@ -117,20 +113,18 @@ begin
         led_r <= '1';
         case counter is
           when 0 =>
-            seg_out_internal <= "0001111"; -- 7
-          when 1 =>
             seg_out_internal <= "0100000"; -- 6
-          when 2 =>
+          when 1 =>
             seg_out_internal <= "0100100"; -- 5
-          when 3 =>
+          when 2 =>
             seg_out_internal <= "1001100"; -- 4
-          when 4 =>
+          when 3 =>
             seg_out_internal <= "0000110"; -- 3
-          when 5 =>
+          when 4 =>
             seg_out_internal <= "0010010"; -- 2
-          when 6 =>
+          when 5 =>
             seg_out_internal <= "1001111"; -- 1
-          when 7 =>
+          when 6 =>
             seg_out_internal <= "0000001"; -- 0
 when others =>
             seg_out_internal <= "0001001"; -- Error
