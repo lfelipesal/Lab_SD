@@ -20,17 +20,19 @@ architecture behavioral of semaforo_fsm is
   signal seg_out_internal : std_logic_vector(0 to 6) := "0000000";
   
   signal clock_div : std_logic;
-  signal reset_div : std_logic;
 
 begin
 
-    divisor_clock_inst : entity work.divisor_clock
-        port map(clk50MHz => clock, reset => reset_div, clk1Hz => clock_div);
-    
-  process(clock)
+     component divisor_clock
+        port (clk50MHz : in std_logic;
+					reset : in std_logic;
+					clk1Hz : out std_logic);
+		end component;
+  meu_clock: divisor_clock port map(clk50MHz => clock, reset => reset,clk1Hz => clock_div );
+  process(clk1Hz)
   begin
-    if rising_edge(clock) then
-      if reset_div = '1' then
+    if rising_edge(clock_div) then
+      if reset = '1' then
         current_state <= s_vermelho;
         counter <= 0;
       else
