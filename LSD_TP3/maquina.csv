@@ -1,0 +1,33 @@
+# Quartus II Version 5.1 Internal Build 160 09/19/2005 TO Full Version,
+# File: D:\de2_pins\de2_pins.csv,
+# Generated on: Wed Sep 28 09:40:34 2005,
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.,
+
+To,Location
+pin01[0],PIN_N25
+pin02[1],PIN_N26
+pin03[2],PIN_P25
+pin04[3],PIN_AE14
+pin05[4],PIN_AF14
+pin06[5],PIN_AD13
+pin07[6],PIN_AC13
+pin08[7],PIN_C13
+pin09[8],PIN_B13
+segment_displayA[0],PIN_AF10
+segment_displayB[1],PIN_AB12
+segment_displayC[2],PIN_AC12
+segment_displayD[3],PIN_AD11
+segment_displayE[4],PIN_AE11
+segment_displayF[5],PIN_V14
+segment_displayG[6],PIN_V13
+troco[0],PIN_R2
+troco[1],PIN_P4
+troco[2],PIN_P3
+troco[3],PIN_M2
+troco[4],PIN_M3
+troco[5],PIN_M5
+troco[6],PIN_M4
+enter[0],PIN_G26
+led[0],PIN_AE23
+clk,PIN_D13
