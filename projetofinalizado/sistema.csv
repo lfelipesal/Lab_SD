@@ -1,0 +1,47 @@
+# Quartus II Version 5.1 Internal Build 160 09/19/2005 TO Full Version,
+# File: D:\de2_pins\de2_pins.csv,
+# Generated on: Wed Sep 28 09:40:34 2005,
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.,
+
+To,Location
+ficha[0],PIN_N25
+ficha[1],PIN_N26
+ficha[2],PIN_P25
+ficha[3],PIN_AE14
+reset,PIN_C13
+enter,PIN_A13
+produto[0],PIN_U4
+produto[1],PIN_V1
+produto[2],PIN_V2
+display_prod[0],PIN_AF10
+display_prod[1],PIN_AB12
+display_prod[2],PIN_AC12
+display_prod[3],PIN_AD11
+display_prod[4],PIN_AE11
+display_prod[5],PIN_V14
+display_prod[6],PIN_V13
+display_val[0],PIN_V20
+display_val[1],PIN_V21
+display_val[2],PIN_W21
+display_val[3],PIN_Y22
+display_val[4],PIN_AA24
+display_val[5],PIN_AA23
+display_val[6],PIN_AB24
+display_val_ac[0],PIN_U9
+display_val_ac[1],PIN_U1
+display_val_ac[2],PIN_U2
+display_val_ac[3],PIN_T4
+display_val_ac[4],PIN_R7
+display_val_ac[5],PIN_R6
+display_val_ac[6],PIN_T3
+display_troco[0],PIN_T2
+display_troco[1],PIN_P6
+display_troco[2],PIN_P7
+display_troco[3],PIN_T9
+display_troco[4],PIN_R5
+display_troco[5],PIN_R4
+display_troco[6],PIN_R3
+led_end,PIN_AE23
+led_insert,PIN_AF23
+clock,PIN_N2
